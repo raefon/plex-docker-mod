@@ -1,5 +1,7 @@
 #!/usr/bin/with-contenv bash
 
+export PLEX_MEDIA_SERVER_APPLICATION_SUPPORT_DIR="/config/plex/Library/Application Support"
+
 # create folders
 if [ ! -d "${PLEX_MEDIA_SERVER_APPLICATION_SUPPORT_DIR}" ]; then \
     mkdir -p "${PLEX_MEDIA_SERVER_APPLICATION_SUPPORT_DIR}"
